@@ -1,2 +1,2 @@
 # Cyclistic-Bike-Share-Analysis
-This is the capstone project for the Google Professional Data Analytics Certificate. This is the analysis of over 5 million rows of data using MySQL for the Cyclistic Bike Share Company. 
+This is my capstone project submission for the Google Professional Data Analytics Certificate. The data contains over 5 million rows which I cleaned and analysed using MySQL for the Cyclistic Bike Share Company. 
