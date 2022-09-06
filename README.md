@@ -8,18 +8,18 @@ I analysed the data from ***December 2020 to November 2021***. This made it poss
 
 **Queries**
 
-There are a total of ***11 query files***. 
-
-The queries should be executed in the following order:
+There are a total of ***11 query files***. The queries should be executed in the following order:
 
 ***1. Cyclistic_database***
-	- Create the database
-	- Create the seasons tables
-	- Load data from csv files to the tables
+- Create the database
+- Create the seasons tables
+- Load data from csv files to the tables
 
 ***2. Winter_table | spring_table | summer_table | fall_table***
 	- Create a new calculated column: ride_length
+	
 	- Calculate and update the values of ride_length column
+	
 	- Create a new calculated column: day_of_week 
 	- Calculate and update the values of day_of_week column
 	- Check completeness (Fill or delete empty fields)
