@@ -68,3 +68,19 @@ FROM cyclistic_year_table
 GROUP BY rideable_type
 ORDER BY COUNT(*) DESC
 ;
+
+-- Export the clean data to a csv file
+SELECT "ride_id", "rideable_type", 
+"started_at", "ended_at", "start_station_name", "start_station_id", 
+"end_station_name", "end_station_id", "start_lat", "start_lng", "end_lat", 
+"end_lng", "member_casual", "ride_length", "day_of_week"
+
+UNION ALL
+
+SELECT 
+	ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual, ride_length, day_of_week
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/cyclistic_clean_data.csv'
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+FROM cyclistic_year_table
+;
