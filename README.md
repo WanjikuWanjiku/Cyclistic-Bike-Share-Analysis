@@ -1,14 +1,14 @@
 # Cyclistic-Bike-Share-Analysis
 This is my capstone project submission for the **Google Professional Data Analytics Certificate.** 
 
-The data contains over **5 million rows** which I cleaned and analysed using **MySQL** for the <u>Cyclistic Bike Share Company</u>.
+The data contains over **5 million rows** which I cleaned and analysed using **MySQL** for the **Cyclistic Bike Share Company**.
 
 This case-study aims to identify differences in how annual members and casual riders use cyclistic bikes. 
 
 I analysed the data from December 2020 to November 2021. 
 This made it possible to break down the analysis based on seasons. (winter, spring, summer, fall)
 
-<h2>Queries</h2>
+##Queries
 
 There are a total of **11** query files. 
 The queries should be executed in the following order:
@@ -38,7 +38,7 @@ The queries should be executed in the following order:
 **5. Cyclistic_year_analysis**
 	- Calculate total_rides, average, mode, maximum and minimum ride lengths 
 
-<h2>Summary Statistics</h2> 
+##Summary Statistics
 |                          |    Total Rides   | Average ride length |   Mode ride length  |
 | :-----------------:| :-----------------:|:-------------------------: | :------------------------:|
 |            All          |   5,210,101    |       17 minutes        |       6 minutes          |
