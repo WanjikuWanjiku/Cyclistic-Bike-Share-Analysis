@@ -6,7 +6,7 @@ This case-study aims to identify differences in how annual members and casual ri
 
 I analysed the data from ***December 2020 to November 2021***. This made it possible to break down the analysis based on seasons. (winter, spring, summer, fall)
 
-**Queries**
+**QUERIES**
 
 There are a total of ***11 query files***. The queries should be executed in the following order:
 
@@ -35,7 +35,7 @@ There are a total of ***11 query files***. The queries should be executed in the
 ***5. Cyclistic_year_analysis***
 - Calculate total_rides, average, mode, maximum and minimum ride lengths 
 
-**Summary Statistics**
+**SUMMARY STATISTICS**
 
 |                          |    Total Rides   | Average ride length |   Mode ride length  |
 | :-----------------:| :-----------------:|:-------------------------: | :------------------------:|
@@ -44,7 +44,7 @@ There are a total of ***11 query files***. The queries should be executed in the
 |        Casual       |   2,313,123    |       22 minutes        |        60 minutes       |
 
 	
-**Articles about this analysis** 
+**ARTICLES** 
 
-**Visualization**
+**VISUALIZATION**
 
