@@ -22,6 +22,14 @@ group by day_of_week
 order by total_rides desc
 ;
 
+-- Total number of rides in the year based on time of day
+SELECT DATE_FORMAT(started_at, '%H') as time_of_day,
+count(ride_id) as total_rides
+from cyclistic_year_table
+group by time_of_day
+order by total_rides desc
+;
+
 -- Calculate mode of all rides
 SELECT  (ride_length)/60 as ride_length_minutes, COUNT(*) AS Mode 
 FROM cyclistic_year_table 
@@ -84,3 +92,7 @@ FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 FROM cyclistic_year_table
 ;
+
+
+        
+        
