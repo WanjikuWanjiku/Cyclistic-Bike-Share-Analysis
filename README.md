@@ -26,14 +26,16 @@ There are a total of ***11 query files***. The queries should be executed in the
 - Check uniqueness (Identify and remove duplicate id's) 
 		
 ***3. Winter_analysis | spring_analysis | summer_analysis | fall_analysis***
-- Calculate total_rides, average, mode, maximum and minimum ride lengths 
+- Calculate total rides, average, mode, maximum and minimum ride lengths 
+- Calculate total rides based on day of week and hours
 	
 ***4. Cyclistic_year_table***
 - Create a table to hold the information for the 12 months
 - Insert data from the four seasons tables into the year table
 		
 ***5. Cyclistic_year_analysis***
-- Calculate total_rides, average, mode, maximum and minimum ride lengths 
+- Calculate total rides, average, mode, maximum and minimum ride lengths 
+- Calculate total rides based on day of week, hour and months. 
 
 **SUMMARY STATISTICS**
 
