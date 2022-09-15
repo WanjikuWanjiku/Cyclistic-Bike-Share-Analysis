@@ -36,6 +36,7 @@ There are a total of ***11 query files***. The queries should be executed in the
 ***5. Cyclistic_year_analysis***
 - Calculate total rides, average, mode, maximum and minimum ride lengths 
 - Calculate total rides based on day of week, hour and months. 
+- Calculate total rides started or ended at random points. 
 
 **SUMMARY STATISTICS**
 
