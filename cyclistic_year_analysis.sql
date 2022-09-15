@@ -15,10 +15,33 @@ FROM cyclistic_year_table
 GROUP BY rideable_type
 ;
 
+-- Total number of rides in the year based on month
+SELECT date_format(started_at, '%m') as current_month,
+count(ride_id) as total_rides
+from cyclistic_year_table
+group by current_month
+order by total_rides desc
+;
+
+-- Total number of rides in the year based on month member vs casual 
+SELECT member_casual , date_format(started_at, '%m') as current_month,
+count(ride_id) as total_rides
+from cyclistic_year_table
+group by member_casual , current_month
+order by total_rides desc
+;
+
 -- Total number of rides in the year based on day of week
 select day_of_week, count(*) as total_rides
 from cyclistic_year_table
 group by day_of_week
+order by total_rides desc
+;
+
+-- Total number of rides in the year based on day of week member vs casual
+select member_casual, day_of_week, count(*) as total_rides
+from cyclistic_year_table
+group by member_casual, day_of_week
 order by total_rides desc
 ;
 
@@ -27,6 +50,14 @@ SELECT DATE_FORMAT(started_at, '%H') as time_of_day,
 count(ride_id) as total_rides
 from cyclistic_year_table
 group by time_of_day
+order by total_rides desc
+;
+
+-- Total number of rides in the year based on time of day member vs casual
+SELECT member_casual, date_format(started_at, '%H') as time_of_day,
+count(ride_id) as total_rides
+from cyclistic_year_table
+group by member_casual, time_of_day
 order by total_rides desc
 ;
 
