@@ -48,8 +48,11 @@ There are a total of ***11 query files***. The queries should be executed in the
 
 	
 **ARTICLES** 
+
 [Article on Medium](https://bit.ly/3SogS1R)
 
 **VISUALIZATION**
+
 [Tableau Public](https://tabsoft.co/3SpGYSv!)
+
 [PowerPoint Presentation](https://1drv.ms/p/s!AtqTV_z531JVgkHkZaCwTXvj0X3q?e=hsErLm)
